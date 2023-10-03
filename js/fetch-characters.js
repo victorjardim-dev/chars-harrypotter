@@ -5,12 +5,14 @@ export default async function fetchCharacters() {
   const charactersJSON = await (await characters).json();
 
   const totalChars = charactersJSON.length;
+  const totalRetornadosAtualmente = 27;
 
   const tituloPrincipal = document.querySelector(".titulo");
-  tituloPrincipal.querySelector(".quantidade").innerText = totalChars;
+  tituloPrincipal.querySelector(".quantidade").innerHTML = `${totalChars}<br>
+  Mostrando um total de ${totalRetornadosAtualmente}`;
 
   // totalChars - 1
-  for(let i = totalChars - 1; i >= 0; i--) {
+  for(let i = totalRetornadosAtualmente - 1; i >= 0; i--) {
     const strDateReplace = charactersJSON[i].dateOfBirth;
 
     const character = {
