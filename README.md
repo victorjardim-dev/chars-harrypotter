@@ -18,5 +18,5 @@ export default async function fetchCharacters() {
 }
 ```
 
-## Veja como ficou o projeto ^^
-[![Ver Projeto](https://img.shields.io/badge/ver_projeto-75d?style=for-the-badge&logo=sonarsource&logoColor=white)](https://victorjardim.dev/projetos/personagens-harrypotter)
+## Veja como ficou o projeto
+[![Ver Projeto](https://img.shields.io/badge/ver_projeto-75d?style=for-the-badge&logo=sonarsource&logoColor=white)](https://victorjardim.dev/meus-projetos/personagens-harrypotter)
