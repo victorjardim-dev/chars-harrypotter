@@ -1,0 +1,34 @@
+.rodape {
+  width: 100%;
+  background: var(--bg-transparente);
+  padding: 2.5rem 0;
+}
+
+.rodape .copyright {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.rodape .copyright p {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.rodape .copyright p {
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: .1rem;
+}
+
+.rodape .copyright p a {
+  color: var(--cor-principal);
+  display: inline-block;
+}
+
+.rodape .copyright p a:hover {
+  text-decoration: underline;
+  color: var(--cor-secundaria);
+}
