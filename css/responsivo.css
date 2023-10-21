@@ -4,7 +4,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .rodape .copyright {
+  .cabecalho .copyright {
     flex-direction: column;
     gap: 1.25rem;
   }
@@ -21,10 +21,6 @@
 }
 
 @media (max-width: 620px) {
-  .topo {
-    flex-direction: column;
-    gap: 2.5rem;
-  }
   .characters {
     grid-template-columns: 1fr;
   }

@@ -4,39 +4,31 @@
   padding: 2.5rem 0;
 }
 
-.cabecalho .topo {
+.cabecalho .copyright {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 5rem;
 }
 
-.cabecalho .topo .logo:hover {
-  filter: brightness(120%);
+.cabecalho .copyright p {
+  font-size: 1rem;
+  line-height: 1;
 }
 
-.cabecalho .topo .navegacao ul {
-  display: flex;
-  gap: 1.25rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.cabecalho .topo .navegacao ul li {
-  flex: 1;
-}
-
-.cabecalho .topo .navegacao ul li a {
+.cabecalho .copyright p {
   font-size: 1rem;
   line-height: 1;
   letter-spacing: .1rem;
-  text-transform: uppercase;
-  padding: 0.75rem 1rem;
-  text-align: center;
-  border: 1px solid var(--cor-principal);
-  font-family: "Bluu";
 }
 
-.cabecalho .topo .navegacao ul li a:hover {
-  background: var(--cor-principal);
+.cabecalho .copyright p a {
+  color: var(--cor-principal);
+  display: inline-block;
+}
+
+.cabecalho .copyright p a:hover {
+  text-decoration: underline;
+  color: var(--cor-secundaria);
 }
